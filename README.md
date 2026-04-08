@@ -1,6 +1,6 @@
 # Machine Learning Notebook Hub
 
-![Machine Learning Notebook Hub](assets/banner.png)
+![Machine Learning Notebook Hub](banner.png)
 
 ## Overview
 
@@ -26,10 +26,17 @@ The notebooks are grouped by topic.  Use the numbered list below to navigate.  T
 6. **Simple Logistic Regression** – modeling binary outcomes using the logistic function; interpreting probabilities and decision boundaries.
 7. **K‑Nearest Neighbours (KNN)** – non‑parametric classification based on similarity in feature space.
 8. **Decision Tree Classification** – building a tree‑based model that splits data on informative features.
+9. **Support Vector Machine (SVM) Classification** – training a kernel‑based classifier that finds optimal separating hyperplanes.
 
 ### Model Evaluation
 
-9. **Cross‑Validation Example** – using train/test splits and k‑fold cross validation to evaluate generalisation error.
+10. **Cross‑Validation Example** – using train/test splits and k‑fold cross validation to evaluate generalisation error.
+11. **Confusion Matrix Example** – computing and visualising confusion matrices and classification metrics for multi‑class problems.
+
+### Unsupervised Learning & Dimensionality Reduction
+
+12. **K‑Means Clustering Example** – grouping similar observations without labels using the K‑means algorithm and visualising cluster centroids.
+13. **PCA Example** – reducing high‑dimensional data to two principal components using Principal Component Analysis and visualising the result.
 
 
 Each notebook lives at the root of this repository and can be opened directly in JupyterLab, Jupyter Notebook, Google Colab or VS Code.  If a notebook depends on an external dataset you will find instructions in the notebook’s first cell or in the `datasets/README.md` file.
@@ -53,13 +60,12 @@ Each notebook lives at the root of this repository and can be opened directly in
 
 ## Roadmap
 
-This project is actively maintained as a learning resource.  Future additions may include:
+This project is actively maintained as a learning resource.  Now that the repository covers foundations, regression, classification (including SVM), model evaluation, unsupervised learning and dimensionality reduction, future additions may include:
 
-- notebooks on regularisation (ridge, lasso)
-- support‑vector machines and kernel methods
-- ensemble methods (random forests, gradient boosting)
-- unsupervised learning (k‑means, PCA, clustering algorithms)
-- model interpretability techniques and fairness metrics
+* notebooks on regularisation (ridge, lasso and elastic net)
+* ensemble methods such as random forests, gradient boosting and bagging
+* model interpretability techniques (SHAP, LIME) and fairness metrics
+* additional clustering algorithms (hierarchical clustering, DBSCAN) and anomaly detection
 
 Feel free to suggest topics by opening an issue or contributing a notebook!
 
